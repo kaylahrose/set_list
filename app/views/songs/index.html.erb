@@ -4,6 +4,6 @@
 
 <% @songs.each do |song| %>
   <p><%= song.title %><p>
-  <p><%= song.play_count %><p>
-     <p><%= song.length %><p>
-     <% end %>
+  <p>Play count: <%= song.play_count %><p>
+  <p><%= song.length %><p>
+<% end %>
