@@ -29,7 +29,7 @@ RSpec.describe "Songs index", type: :feature do
 #     As a user
 # When I visit a Song show page
 # Then I see the song's title, length, and play count
-    describe "When I visit /songs/show, " do
+    # describe "When I visit /songs/show, " do
     #   it "I see the song's title, length, and play count" do
     #     carly = Artist.create!(name: "Carly Rae Jepsen")
     #     song_1 = Song.create!(title: "I really like you",
@@ -40,7 +40,7 @@ RSpec.describe "Songs index", type: :feature do
     #                           length: 208,
     #                           play_count: 923847,
     #                           artist: carly)                      
-        visit "/songs/#{song_1.id}" 
+        # visit "/songs/#{song_1.id}" 
     #     expect(page).to have_content(song_1.title)
     #     expect(page).to have_content("Play count: #{song_1.play_count}")
     #     expect(page).to have_content("Length: #{song_1.length}")
